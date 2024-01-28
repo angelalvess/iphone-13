@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Iphone 13</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navigation">
+        <a href="#">
+          <img class="logo" src="assets/img/logo.png" alt="logo-apple" />
+        </a>
+        <ul>
+          <li><a href="#">Mac</a></li>
+          <li><a href="#" class="fixed">Iphone</a></li>
+          <li><a href="#">Ipad</a></li>
+          <li><a href="#">Watch</a></li>
+          <li><a href="#">Airpods</a></li>
+          <li><a href="#">Só na Apple</a></li>
+          <li><a href="#">Suporte</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main--container">
+      <section class="section--container">
+        <div class="circle"></div>
+        <div class="main--text">
+          <img
+            class="iphone--title--img"
+            src="assets/img/iphone13.png"
+            alt="Iphone 13"
+          />
+          <h3 class="subtitle--iphone">Seu novo superpoder</h3>
+          <p class="info--iphone">
+            O chip A15 Bionic é o mais rápido em um smartphone.<br />
+            E ele vem com recursos de aprendizado de máquina que aceleram tudo,
+            desde a edição de fotos<br />
+            até a reprodução de gráficos em jogos. Além disso, a bateria dura o
+            dia todo.
+          </p>
+          <h6 class="price--iphone">A partir de R$ 6.599</h6>
+          <a href="#" class="btn--buy">Comprar</a>
+          <div class="choose--color">
+            <h5 class="fav--color">Escolha sua cor favorita:</h5>
+          </div>
+          <div class="colors">
+            <span
+              id="color--green"
+              onclick="imgSlider('assets/img/green.png'), changeCircleColor('#445c42')"
+            ></span>
+            <span
+              id="color--pink"
+              onclick="imgSlider('assets/img/pink.png'), changeCircleColor('#ffc9cf')"
+            ></span>
+            <span
+              id="color--blue"
+              onclick="imgSlider('assets/img/blue.png'), changeCircleColor('#0b839e')"
+            ></span>
+            <span
+              id="color--black"
+              onclick="imgSlider('assets/img/black.png'), changeCircleColor('#092732')"
+            ></span>
+            <span
+              id="color--white"
+              onclick="imgSlider('assets/img/white.png'), changeCircleColor('#e0dbd7')"
+            ></span>
+            <span
+              id="color--red"
+              onclick="imgSlider('assets/img/red.png'), changeCircleColor('#cf4f68')"
+            ></span>
+          </div>
+        </div>
+
+        <div class="main--img">
+          <img
+            class="iphone--img"
+            src="assets/img/pink.png"
+            alt="pink iphone"
+            id="phone"
+          />
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

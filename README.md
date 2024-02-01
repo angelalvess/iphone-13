@@ -1,6 +1,6 @@
 # Landing Page Iphone 13 📱
 
-Projeto feito em  JavaScript, Css e HTML.
+This project is a responsive landing page built using JavaScript, HTML and CSS.
 
 
 
